@@ -1,0 +1,155 @@
+body {
+	width: 935px;
+	margin:0 auto;
+	position: relative;
+	font-family: Trebuchet MS;
+	font-size: 13px;
+	background-color: #669acc;
+}
+
+footer, header {
+	float: left;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+header {
+	height: 185px;
+	margin-bottom: 5px;
+	background: #669acc url(./images/michele_header.jpg) no-repeat;
+}
+
+footer {
+	height: 24px;
+	background-color: black;
+	padding: 4px;
+	color: white;
+	text-align: center;
+}
+
+header div.background{
+	margin-left:120px;
+	margin-top: 50px;
+	padding-left: 120px;
+	padding-top:25px;
+	padding-bottom: 30px;
+	background-color: white;
+	background-color: rgba(255,255,255,.4);
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#7F00FF00', EndColorStr='#7F00FF00');
+}
+
+header div#content{
+	color: white;
+}
+
+header div#content h1 {
+	font-weight: bold;
+	font-style: italic;
+	margin: 0px;
+}
+
+header div#content h3 {
+	margin: 0px;
+}
+
+header ul{
+	position: absolute;
+	bottom: 4px;
+	right: 0px;
+	width: 100%;
+	background-color: #003466;
+	list-style-type: none;
+	font-size: 13px;
+	font-weight: bold;	
+	font-family: Trebuchet MS;
+	border-top: 4px solid #B7CFE7;
+	margin: 0px;
+	padding: 0px;
+}
+
+header ul li {
+	float: left;
+	text-align: center;
+	width: 120px;
+	padding: 5px;
+}
+
+header ul li:hover, .selected {
+	background-color: #B7CFE7;
+	color: #003466;
+}
+
+header ul li a {
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+header ul li a:hover {
+	color: #003466;
+}
+
+div.main-body {
+	background-color: white;
+	float: left;
+}
+
+content {
+	display: block;
+	float: left;
+	width: 60%;
+	padding: 3%;
+	background-color: white;
+}
+
+sidebar {
+	float: right;
+	width: 30%;
+	padding: 2%;
+	position: relative;
+	background-color: white;
+}
+
+sidebar #contactInfo {
+	background-color: #C6D8EC; 
+	padding-left: 10px;
+}	
+
+sidebar #contactInfo .header {
+	font-size:10pt;
+	background-color: #003366;
+	color: #FFFFFF;
+	border-bottom: 3px solid #669AFF;
+	padding: 5px;
+	margin-bottom:5px;
+	margin-left: -10px;
+}
+
+sidebar #contactInfo .contact {
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	height: 40px;
+	padding-top: 3px;
+}
+
+sidebar #contactInfo .phone {
+	background-image: url(./images/phoneIcon.gif);
+}
+
+sidebar #contactInfo .email {
+	background-image: url(./images/mailIcon.gif);
+}
+
+sidebar #contactInfo .drive {
+	background-image: url(./images/addressIcon.gif);
+}
+
+p.quote {
+	color: #bfbfbf;
+	text-align: center;
+	margin-bottom: 0;
+    margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+}
