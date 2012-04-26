@@ -93,6 +93,8 @@ header ul li a:hover {
 div.main-body {
 	background-color: white;
 	float: left;
+	display: block;
+	width: 100%
 }
 
 content {
@@ -152,4 +154,8 @@ p.quote {
     margin-top: 0;
 	font-size: 24px;
 	font-weight: bold;
+}
+
+.hideOnNoScript {
+	display: none;
 }

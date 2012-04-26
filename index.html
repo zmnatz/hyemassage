@@ -1,4 +1,9 @@
 <html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="hashchange.js"></script>
+	<script src="hyemassage.js"></script>
+</head>
 <body>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<header>
@@ -8,41 +13,74 @@
 				<h3>(301) 908-7653</h2>
 			</div>
 		</div>
-		<ul id="nav">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#services">Services</a></li>
-			<li><a href="#store">Store</a></li>
-			<li><a href="#about">Meet Michele</a></li>
-			<li><a href="#contact">Contact Michele</a></li>
-			<li><a href="#testimonials">Testimonials</a></li>
-		</ul>
+		<div id="nav">
+			<ul>
+				<li id="home-link"><a href="#home">Home</a></li>
+				<li id="services-link"><a href="#services">Services</a></li>
+				<li id="store-link"><a href="#store">Store</a></li>
+				<li id="about-link"><a href="#about">Meet Michele</a></li>
+				<li id="contact-link"><a href="#contact">Contact Michele</a></li>
+				<li id="testimonials-link"><a href="#testimonials">Testimonials</a></li>
+			</ul>
+		</div>
 	</header>
 	<div class="main-body">
 		<content>
-			<p class="quote">"Massage encourages good health,</p>
-			<p class="quote">relaxation & overall sense of well being"</p>
-			<p> Hye Massage is owned and operated by Michele Mnatzakanian. A licensed and certified massage therapist from Potomac Massage Therapy Institute (PMTI) in Washington, DC, a national leader in massage therapy training. </p>
-			<blockquote>
-				<b>Learn More about our services:</b>
-				<ul>
-				    <li>Swedish/Deep Tissue Massage</li>
-					<li>Reflexology</li>
-					<li>Hot Stone Massage</li>
-					<li>On-site visits (clients home or company site)</li>
-					<li><a href="#services">And more...</a></li>
-				</ul>
+			<div class="section" id="home">
+				<p class="quote">"Massage encourages good health,</p>
+				<p class="quote">relaxation & overall sense of well being"</p>
+				<p> Hye Massage is owned and operated by Michele Mnatzakanian. A licensed and certified massage therapist from Potomac Massage Therapy Institute (PMTI) in Washington, DC, a national leader in massage therapy training. </p>
+				<blockquote>
+					<b>Learn More about our services:</b>
+					<ul>
+						<li>Swedish/Deep Tissue Massage</li>
+						<li>Reflexology</li>
+						<li>Hot Stone Massage</li>
+						<li>On-site visits (clients home or company site)</li>
+						<li><a href="#services">And more...</a></li>
+					</ul>
+					<p>
+						<b>Schedule an appointment today by calling 301-908-3998</b><br/>
+						Take the first steps on the road to a more relaxed and stress free life.
+					</p>
+				</blockquote>
 				<p>
-					<b>Schedule an appointment today by calling 301-908-3998</b><br/>
-					Take the first steps on the road to a more relaxed and stress free life.
+					Now selling handmade therapeutic neck wraps in our store 
+					(<a href="#store">Go to Store</a>):<br/>
+					<ul>
+						<li>Designs available for all your favorite sports teams and colleges as well as other creative designs</li>
+					</ul>
 				</p>
-			</blockquote>
-			<p>
-				Now selling handmade therapeutic neck wraps in our store 
-				(<a href="#store">Go to Store</a>):<br/>
-				<ul>
-					<li>Designs available for all your favorite sports teams and colleges as well as other creative designs</li>
-				</ul>
-			</p>
+			</div>
+			<div class="section" id="services">
+				<noscript><h3>Services</h3></noscript>
+			</div>
+			<div class="section hideOnNoScript" id="store">
+				<noscript><h3>Store</h3></noscript>
+			</div>
+			<div class="section" id="about">
+				<noscript><h3>Meet Michele</h3></noscript>
+				<p>Michele Mnatzakanian is a licensed and certified massage therapist from the Potomac Massage Therapy Institute (PMTI) in Washington, DC, a national leader in massage therapy training. Additionally, she has received extensive training in both Swedish and Deep Tissue massage, and has attended classes in the areas of anatomy, physiology and kinesiology. Since graduating from PMTI she's taken additional classes in pregnancy therapy, reflexology, oncology massage, reiki, hot stone massage, sports massage and active isolated stretching. Through continued education and practice, she holds a professional membership with the American Massage Therapy Association. She has an extensive background working in a variety of environments including physical therapy &amp; wellness center, hospital, fitness center, spa and workplaces. </p>
+				<blockquote>
+					<b>Education &amp; Credentials</b>
+					<ul>
+						<li>Graduate of Potomac Massage Training Institute Washington DC
+						<li>Trained in Swedish, deep tissue, hot stone massage, Certified in Bodywork for the Childbearing Year®
+						<li>Professional member of the American Massage Therapy Association (AMTA)
+						<li>Nationally Certified in Therapeutic Massage and Bodywork (NCTMB)
+						<li>Maryland state licensed massage therapist, License # M03107
+						<li>Over 200 hours of continuing education credits including: hot stone massage, massage for people with special  needs, pregnancy massage, reflexology, AIS (active isolated stretching), Thai on the Table, Myofascial therapy and  oncology massage, and hospice massage care.
+						<li>American Heart training in CPR and first aid
+						<li>BA degree Siena Heights University in Michigan
+					</ul>
+				</blockquote>
+			</div>
+			<div class="section hideOnNoScript" id="contact">
+				<noscript><h3>Contact Michele</h3></noscript>
+			</div>
+			<div class="section hideOnNoScript" id="testimonials">
+		
+			</div>
 		</content>
 		<sidebar>
 			<p align="center">
