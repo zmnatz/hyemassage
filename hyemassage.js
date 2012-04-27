@@ -6,7 +6,8 @@ $(function() {
 	}
 	handleChange(hash);
 	
-	$("li.hideOnNoScript,a.hideOnNoScript").show();
+	$("li.hideOnNoScript").show();
+	$("a.hideOnNoScript").show();
 			
 	$(window).hashchange(function()
 	{
