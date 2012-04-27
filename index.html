@@ -1,11 +1,13 @@
 <html>
 <head>
+	<title>Hye Massage</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="hashchange.js"></script>
 	<script src="hyemassage.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	
 	<header>
 		<div class="background">
 			<div id="content">
@@ -19,8 +21,8 @@
 				<li id="services-link"><a href="#services">Services</a></li>
 				<li id="store-link"><a href="#store">Store</a></li>
 				<li id="about-link"><a href="#about">Meet Michele</a></li>
-				<li id="contact-link"><a href="#contact">Contact Michele</a></li>
-				<li id="testimonials-link"><a href="#testimonials">Testimonials</a></li>
+				<li class="hideOnNoScript" id="contact-link"><a href="#contact">Contact Michele</a></li>
+				<li class="hideOnNoScript" id="testimonials-link"><a href="#testimonials">Testimonials</a></li>
 			</ul>
 		</div>
 	</header>
@@ -31,7 +33,7 @@
 				<p class="quote">relaxation & overall sense of well being"</p>
 				<p> Hye Massage is owned and operated by Michele Mnatzakanian. A licensed and certified massage therapist from Potomac Massage Therapy Institute (PMTI) in Washington, DC, a national leader in massage therapy training. </p>
 				<blockquote>
-					<b>Learn More about our services:</b>
+					<h4>Learn More about our services:</h4>
 					<ul>
 						<li>Swedish/Deep Tissue Massage</li>
 						<li>Reflexology</li>
@@ -40,7 +42,7 @@
 						<li><a href="#services">And more...</a></li>
 					</ul>
 					<p>
-						<b>Schedule an appointment today by calling 301-908-3998</b><br/>
+						<h4>Schedule an appointment today by calling 301-908-3998</h4>
 						Take the first steps on the road to a more relaxed and stress free life.
 					</p>
 				</blockquote>
@@ -53,16 +55,72 @@
 				</p>
 			</div>
 			<div class="section" id="services">
-				<noscript><h3>Services</h3></noscript>
+				<noscript><h2>Services</h2></noscript>
+				<p>
+					<h3>Rates (Swedish/Deep Tissue/Pregnancy/Reflexology/AIS/Oncology Massage/Seated Chair Massage)</h3>
+					<blockquote><ul>
+						<li>30-minute session: $50</li>
+						<li>60-minute session: $75</li>
+						<li>90-minute session: $95</li>
+						<li>Hot Stone massages: $90 for 75 minutes</li>
+						<li>Out-calls (clients home or company site) under certain circumstances: additional $30 travel fee local areas in Montgomery County, MD</li>
+						<li>Payment is due on services rendered. Check or cash is accepted</li>
+					</ul></blockquote>
+				</p>
+				<a class="hideOnNoScript" href="#details">Click here for more details on the types of massages provided</a><br/>
+				<p>
+					<h3>Series package</h3>
+					<ul>
+						<li>Package of three massages 60 minute sessions: $200</li>
+						<li>Package of six massages 30 minute sessions: $270</li>
+					</ul>
+				</p>
+				<p><h3>Gift certificates</h3>
+					Celebrate special occasions or just show that you care by treating your friends and loved ones with a gift of relaxation and wellness! Gift certificates available.
+				</p>
+				<p><h3>Cancellation Policy</h3>
+					Your appointment time has been especially reserved for you. In the event you cannot make your appointment, we kindly request you give 24 hours notice, otherwise you will be charged the full rate for the missed appointment.
+				</p>
+				<p><h3>Flex Spending Account</h3>
+					We have found most Flex Spending accounts will allow you to use pre-tax dollars to pay for massages. Check with your company representative to see if you qualify.
+				</p>
 			</div>
+			<div class="section hideOnNoScript" id="details">
+				<p><h3>Swedish/Deep Tissue</h3>
+					Massage therapy is always approached by moving from the superficial to the deeper layers of the muscle tissue and from more broad to more specific areas. The superficial layers must be warmed and softened first in order to access the deeper layers. Swedish massage addresses the more superficial tissue layers. Commonly referred to as "relaxation massage," Swedish massage involves gentle strokes that include gliding, kneading, tapping, stretching, rocking, and still touch. This type of massage promotes circulation, relaxation, stress reduction, and general well being. Deep tissue massage addresses the deeper tissue layers. It involves slower, more focused and penetrating strokes including deep glides, compressions, and cross-fiber friction. Deep tissue work is especially helpful for those who need relief for persistent areas of muscle tension, soreness, spasms, or "knots" related to posture, stress, or physical over-activity. When muscles are stressed, the flow of oxygen and nutrients becomes blocked, leading to inflammation and a buildup of toxins in the muscle tissue. Deep tissue massage helps to loosen the tissue by un-sticking the muscle fibers. Proper circulation is then restored. Toxins are flushed out of the tissue and replaced by a fresh blood supply carrying oxygen and nutrients. Swedish and deep tissue techniques are often combined in a full-body massage.
+				</p>
+				<p><h3>Healing Stone Massage</h3>
+					Experience the benefits of this ancient art of therapeutic massage. Several techniques-Swedish, Deep Tissue, and Trigger Point Therapy-are blended in combination with deeply penetrating hot and/or cold stones to bring about certain healing responses.
+					<blockquote>
+						<ul>
+							<li>Relaxing massage ...
+								<p>Water-heated smooth basalt stones are used in combination with aromatherapy essential oils and various massage techniques to effectively relieve stress and tension and to relax your mind and body at its deepest level. Hot stone massage induces a state of deep relaxation, softens and relaxes muscles, improves blood circulation, relieves pain in muscles and joints, and creates a feeling of well being and peacefulness.
+							<li>Deep tissue massage ...
+								<p>Hot and cold stones are used in combination with various massage techniques to address deep-seated tension. Deep tissue stone massage addresses the superficial tissue and the deeper, underlying sore areas. The cold stones serve to break up and release toxins trapped in the tissue. The hot stones then pave the way for a newly oxygenated blood supply to replace the cellular waste products. This increase in circulation can aid in healing.
+						</ul>
+					</blockquote>
+				</p>
+				<p><h3>Pregnancy Massage</h3>
+					Pregnancy is a time of massive change in a woman’s body: physical, mental, and emotional. Massage enhances circulation, which supports the work of your heart and increases the oxygen and nutrients delivered to your baby. It helps with reducing stress, promoting relaxation, and improving the quality of sleep. Pregnancy massage can also aid with the common discomforts of pregnancy, such as backaches, stiff neck, headaches, swelling, muscle fatigue, muscle and joint strain, and heaviness and aching in your legs caused by swelling.  
+				</p>
+				<p><h3>Reflexology</h3>
+					Reflexology is the physical act of applying pressure to the feet and hand with specific thumb, finger and hand techniques. It is based on a system of zones and reflex areas that reflect an image of the body on the feet and hands with a premise that such work effects a physical change to the body. 
+				</p>
+				<p><h3>Seated Massage</h3>
+					Seated massage is performed on a specially designed, portable chair that is quick and easy to set up almost anywhere. The chair allows maximum comfort for the client and provides me with easy access to common areas of tension such as the head, neck, shoulders, back, arms, and hands. Massage is given while the client is fully clothed. Sessions can last anywhere from 5 to 20+ minutes per recipient. I provide seated massage at parties, wedding and baby showers, schools, health and wellness fairs, company picnics, offices, sporting events, healthfairs, and more. Common benefits of chair massage include relaxation and relief from stress, aches and pains, muscle tension, headaches, and fatigue. 
+				</p>
+				<p><h3>AIS (Active Isolated Stretching)</h3>
+					AIS was named and developed by a man named Aaron Mattes, who has had a long history of using this stretching technique on his clients and teaching it to thousands of health practitioners over many years. The reason why some practitioners promote AIS over conventional stretching is this: conventional stretching attempts to stretch muscles when they are not fully relaxed; AIS aims to stretch muscles when they are maximally relaxed, providing for effective stretches with low risk of injury. Stretching opens space in the joints, increases range-of-motion, and supports energy flow.
+				</p>
+		   	</div>
 			<div class="section hideOnNoScript" id="store">
-				<noscript><h3>Store</h3></noscript>
+				<noscript><h2>Store</h2></noscript>
 			</div>
 			<div class="section" id="about">
-				<noscript><h3>Meet Michele</h3></noscript>
+				<noscript><h2>Meet Michele</h2></noscript>
 				<p>Michele Mnatzakanian is a licensed and certified massage therapist from the Potomac Massage Therapy Institute (PMTI) in Washington, DC, a national leader in massage therapy training. Additionally, she has received extensive training in both Swedish and Deep Tissue massage, and has attended classes in the areas of anatomy, physiology and kinesiology. Since graduating from PMTI she's taken additional classes in pregnancy therapy, reflexology, oncology massage, reiki, hot stone massage, sports massage and active isolated stretching. Through continued education and practice, she holds a professional membership with the American Massage Therapy Association. She has an extensive background working in a variety of environments including physical therapy &amp; wellness center, hospital, fitness center, spa and workplaces. </p>
 				<blockquote>
-					<b>Education &amp; Credentials</b>
+					<h3>Education &amp; Credentials</h3>
 					<ul>
 						<li>Graduate of Potomac Massage Training Institute Washington DC
 						<li>Trained in Swedish, deep tissue, hot stone massage, Certified in Bodywork for the Childbearing Year®
@@ -76,10 +134,31 @@
 				</blockquote>
 			</div>
 			<div class="section hideOnNoScript" id="contact">
-				<noscript><h3>Contact Michele</h3></noscript>
+				<noscript><h2>Contact Michele</h2></noscript>
 			</div>
 			<div class="section hideOnNoScript" id="testimonials">
-		
+				<h3>See what other people are saying about Michele and Hye Massage...</h3>
+				<p>"After every session with Michele, I feel a strong sense of relief from muscle soreness. Since I am a very active person, there are times when I am held back by stiffness and overworked muscles. I worry less about these incidents because I trust Michele will get me back, better than ever. It is especially helpful that she works on the problem areas as needed and speeds up the recovery process. "<br/>
+					-Chad
+				</p>
+				<p>"It has been a great experience coming to Michele for massage therapy. Because of my injuries, I wasn't able to lie on my stomach. Michele accommodated my needs with side bolsters and pillows, in addition to seated massages. Michele is compassionate and thoughtful. Even though my injuries have healed, I will continue using her as a massage therapist!" <br/>
+					-Sara K.
+				</p>
+				<p>"Michele is an outstanding massage therapist who really cares about her client's well-being. Michele adjusts her technique to fit the individual's needs and ensures that you get the most from your time with her. Michele constantly attends workshops and seminars to improve her skills and to expand her knowledge in massage therapy; particularly in the area of working with cancer patients and survivors. I highly recommend Michele as a massage therapist. " <br/>
+					-Debbie Bambrick
+				</p>
+				<p>"Thank you Michele, I use my therapy wrap multiple times a day, they are wonderful! I am also getting some for Christmas presents. I have been sending some folks I work with your way also, we will keep coming! " <br/>
+					-Gerbeca, Michigan
+				</p>
+				<p>"Thank you once again for the heat wrap. As a new mom, I have to tell you I have been using the heat wrap everyday. It helps tremendously around my neck but I have also been warming it and putting it on my chest as my milk has come in to ease some of the pain and engorgement. It has been a lifesaver. So thank you again! " <br/>
+					-Cyndi P., Fort Worth, TX
+				</p>
+				<p>"Since retiring, I’ve dramatically picked up the level of my recreational activities, particularly biking, and had been plagued with corresponding chronic aches and pains. I haven’t had a massage in years but since beginning a scheduled program of massage therapy with Michele, I have an increased level of muscular flexibility that has definitely helped improve performance. I’ve found the massage therapy to be more effective then NSAID in relieving muscular discomfort, and it’s been especially helpful on those occasions where I had localized pain in my lower back and quads. In addition to all my other comments, let me add that it is just totally relaxing" <br/>
+					- Denis Mackey
+				</p>
+				<p>"Your neck wrap helped to save me from surgery! I had severe neck pain, had an MRI and found a problem with the way my discs were sitting in my neck C4-C5. Saw the surgeon and he said I could hold off until the pain became unbearable. I started on Motrin and using your Steeler neck wrap on my way to work, at work, and at bedtime. It has now been probably 3 months, I have full range of motion in my neck, and the pain is minimal. I will continue to use your wrap. At work my staff is constantly asking me to use the wrap for aches and pains. My son has a lower back basketball injury and constantly uses the wrap on his lower back. He is 17 and asks me to heat it up for him. Best device ever, would recommend it to anyone." <br/>
+					- Diane Hester, Pennsylvania
+				</p>
 			</div>
 		</content>
 		<sidebar>
