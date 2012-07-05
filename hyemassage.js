@@ -11,10 +11,7 @@ $(function() {
 			
 	$(window).hashchange(function()
 	{
-        if(location.hash=='#contact')
-            window.location.reload();
-        else
-		    handleChange(location.hash);
+        handleChange(location.hash);
 	});
 });
 
