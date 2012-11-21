@@ -5,7 +5,7 @@ body {
 
 .header {
 	height: 180px;
-	background: #669acc url(../images/michele_header.jpg) no-repeat;
+	background: #669acc url(images/michele_header.jpg) no-repeat;
 	padding-left: 100px;
 	padding-top: 50px;
 }
