@@ -1,9 +1,14 @@
 $(function() {
 	$(".hideOnNoScript").show();
 	$(window).hashchange(handleHashChange);		
-	loadTestimonials('json/testimonials.json','#testimonials');
 	if(!location.hash)
 		location.hash = '#home';
+	else
+		handleHashChange();
+});
+
+$(function(){
+	loadTestimonials('json/testimonials.json','#testimonials');
 });
 
 function handleHashChange()
