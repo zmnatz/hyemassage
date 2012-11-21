@@ -1,1 +1,0 @@
-Overall, I liked the article and thought it was interesting to see how the authors propose testing data sets to determine if something is really a pattern. Double blind tests and user surveys are common place for obtaining data, but this is the first time I’ve seen these techniques applied to data analysis. 

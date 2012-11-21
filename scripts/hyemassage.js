@@ -1,26 +1,16 @@
 $(function() {
-	var hash = location.hash;
-	if(!location.hash)
-	{
-		hash = '#home';
-	}
-	handleChange(hash);
-	
-	$("li.hideOnNoScript").show();
-	$("a.hideOnNoScript").show();
-			
-	$(window).hashchange(function()
-	{
-        handleChange(location.hash);
-	});
-	
+	$(".hideOnNoScript").show();
+	$(window).hashchange(handleHashChange);		
 	loadTestimonials('json/testimonials.json','#testimonials');
+	if(!location.hash)
+		location.hash = '#home';
 });
 
-function handleChange(hash)
+function handleHashChange()
 {
-    $('content div.section').hide();
-	$('header ul li').removeClass('selected');
+	var hash = location.hash ? location.hash : '#home';
+    $('.section').hide();
+	$('.nav-item').removeClass('selected');
 	$(hash).fadeIn();
 	$(hash+'-link').addClass('selected');
 }
