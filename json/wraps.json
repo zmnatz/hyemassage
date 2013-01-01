@@ -1,115 +1,96 @@
 {"NFL": [
-	{"text": "San Fransisco 49ers", "image": "49ers.jpg"},
+	{"text": "Baltimore Ravens","image": "ravens.jpg"},
 	{"text": "Arizona Cardinals", "image":"arizona.jpg"},
 	{"text": "Chicago Bears", "image":"bears.jpg"},
 	{"text": "Cincinati Bengals","image": "bengals.jpg"},
+	{"text": "Detroit Lions","image": "lions.jpg"},
 	{"text": "Buffalo Bills","image": "bills.jpg"},
 	{"text": "Cleveland Browns","image": "browns.jpg"},
 	{"text": "Tampa Bay Buccaneers","image": "buccaneers.jpg"},
 	{"text": "Carolina Panthers","image": "carolinaPanthers,jpg"},
 	{"text": "San Diego Chargers","image": "chargers.jpg"},
 	{"text": "Dallas Cowboys","image": "cowboys.jpg"},
-	{"text": "","image": "jets.jpg"},
-	{"text": "","image": "kc_chiefs.jpg"},
-	{"text": "","image": "eagles.jpg"},
-	{"text": "","image": "falcons.jpg"},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-airForce.jpg
-army.jpg
-bettyBoop.jpg
-boat.jpg
-boyScout.jpg
-breastCancer.jpg
-bulls.jpg
-christmas.jpg
-christmasDog.jpg
-deck_of_cards.JPG
-design1.jpg
-design2.jpg
-design3.jpg
-design4.jpg
-design5.jpg
-design6.jpg
-design7.jpg
+	{"text": "New York Jets","image": "jets.jpg"},
+	{"text": "Kansas City Chiefs","image": "kc_chiefs.jpg"},
+	{"text": "Philadelphia Eagles","image": "eagles.jpg"},
+	{"text": "Atlanta Falcons","image": "falcons.jpg"},
+	{"text": "Miami Dolphins","image": "dolphins.jpg"},
+	{"text": "New York Giants","image": "nyGiants.jpg"},
+	{"text": "Green Bay Packers","image": "packers.jpg"},
+	{"text": "New Englang Patriots","image": "patriots.jpg"},
+	{"text": "Oakland Raiders","image": "raiders.jpg"},
+	{"text": "St. Louis Rams","image": "rams.jpg"},
+	{"text": "New Orleans Saints","image": "saints.jpg"},
+	{"text": "Pittsburgh Steelers","image": "steelers.jpg"},
+	{"text": "Seattle Seahawks","image": "seahawks.jpg"}
+	{"text": "Washington Redskins","image": "redskins.jpg"},
 ],"Colleges": [
-	{"text": "","image": "auburn.jpg"},
-	{"text": "","image": "cavaliers.jpg"},
-	{"text": "","image": "duke.jpg"},
-	{"text": "","image": "colorado.jpg"},
-	{"text": "","image": "florida.jpg"},
-	{"text": "","image": "florida_state.jpg"},
-	{"text": "","image": "georgia.jpg"},
-	{"text": "","image": "georgiaTech.jpg"},
-	{"text": "","image": "illinois.jpg"},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-	{"text": "","image": ""},
-]
-design8.jpg
-dice.JPG
-dolphins.JPG
-dscn1662.jpg
-falcons.jpg
-fireIce.jpg
-fish.JPG
-flower1.jpg
-flower2.jpg
-georgia.jpg
-georgiaTech.jpg
-golf.jpg
-golf2.jpg
-golfBalls.jpg
-golfer.jpg
-greenLeaves.JPG
-greenTurtle.jpg
-hearts.JPG
-illinois.JPG
-japan.jpg
-jets.jpg
-junior.JPG
-kc_chiefs.JPG
-lions.JPG
-marine.jpg
-michigan.JPG
-michigan_state.JPG
-mississippiState.JPG
-money.JPG
-navy.JPG
-nc_state.JPG
-nyGiants.jpg
-oklahoma.JPG
-oklahoma_state.JPG
-ole_miss.JPG
-packers.jpg
-patriots.JPG
-penguins.jpg
-pennState.jpg
-pistons.JPG
-pit_logo.jpg
-ps_logo.jpg
-purdue.JPG
-raiders.jpg
-rams.JPG
-ravens.jpg
-red_blur.JPG
-redskins.jpg
-rescue.JPG
-rockies.JPG
-saints.jpg
-santa.JPG
-seahawks.JPG
-steelers.jpg
-tennessee.JPG
-texas_tech.JPG
-timberwolves.JPG
-turtle.jpg
-wizards.JPG
+	{"text": "Auburn Tigers","image": "auburn.jpg"},
+	{"text": "Virginia Cavaliers","image": "cavaliers.jpg"},
+	{"text": "Duke Blue Devils","image": "duke.jpg"},
+	{"text": "Colorado","image": "colorado.jpg"},
+	{"text": "Florida Gators","image": "florida.jpg"},
+	{"text": "Florida State","image": "florida_state.jpg"},
+	{"text": "Georgia","image": "georgia.jpg"},
+	{"text": "Georgia Tech","image": "georgiaTech.jpg"},
+	{"text": "Illinois","image": "illinois.jpg"},
+	{"text": "Michigan Wolverines","image": "michigan.jpg"},
+	{"text": "MSU Spartans","image": "michigan_state.jpg"},
+	{"text": "Mississippi State","image": "mississippiState.jpg"},
+	{"text": "NC State","image": "nc_state.jpg"},
+	{"text": "Oklahoma Sooners","image": "oklahoma.jpg"},
+	{"text": "OSU Cowboys","image": "oklahoma_state.jpg"},
+	{"text": "Ole Miss","image": "ole_miss.jpg"},
+	{"text": "Nittany Lions","image": "pennState.jpg"},
+	{"text": "Purdue Boilermakers","image": "purdue.jpg"},
+	{"text": "Tennessee Volunteers","image": "tennessee.jpg"},
+	{"text": "Texas Tech Red Raiders","image": "texas_tech.jpg"}
+],"Armed Forces": [
+	{"text": "Air Force","image": "airForce.jpg"},
+	{"text": "Army", "image": "army.jpg"},
+	{"text": "Marines","image": "marine.jpg"},
+	{"text": "Navy","image": "navy.jpg"},
+],"Nature": [
+	{"text": "Fish","image": "fish.jpg"},
+	{"text": "Green Flowers","image": "flower1.jpg"},
+	{"text": "Flowers","image": "flower2.jpg"},
+	{"text": "Green Leaves","image": "greenLeaves.jpg"},
+	{"text": "Green Turtle","image": "greenTurtle.jpg"},
+	{"text": "Penguins","image": "penguins.jpg"},
+	{"text": "Turtle","image": "turtle.jpg"}
+],"Sports": [
+	{"text": "Golf","image": "golf.jpg"},
+	{"text": "Golf Equipment","image": "golf2.jpg"},
+	{"text": "Golf Balls","image": "golfBalls.jpg"},
+	{"text": "Golfer","image": "golfer.jpg"},
+	{"text": "Dale Earnheardt Junior","image": "junior.jpg"},
+	{"text": "Chicago Bulls", "image": "bulls.jpg"},
+	{"text": "Detroit Pistons","image": "pistons.jpg"},
+	{"text": "Minnesota Timberwolves","image": "timberwolves.jpg"},
+	{"text": "Colorado Rockies","image": "rockies.jpg"}
+],"Designs": [
+	{"text": "Miscellanious Design 1","image":"design1.jpg"},
+	{"text": "Miscellanious Design 2","image":"design2.jpg"},
+	{"text": "Miscellanious Design 3","image":"design3.jpg"},
+	{"text": "Miscellanious Design 4","image":"design4.jpg"},
+	{"text": "Miscellanious Design 5","image":"design5.jpg"},
+	{"text": "Miscellanious Design 6","image":"design6.jpg"},
+	{"text": "Miscellanious Design 7","image":"design7.jpg"},
+	{"text": "Miscellanious Design 8","image":"design8.jpg"},
+	{"text": "Fire and Ice","image": "fireIce.jpg"},
+	{"text": "Red Blur","image": "red_blur.jpg"}
+],"Miscellanious": [
+	{"text": "Betty Boop", "image": "bettyBoop.jpg"},
+	{"text": "Boat","image": "boat.jpg"},
+	{"text": "Boy Scouts", "image": "boyScout.jpg"},
+	{"text": "Breast Cancer Support", "image": "breastCancer.jpg"},
+	{"text": "Cash","image": "money.jpg"},
+	{"text": "Christmas Spirit", "image": "christmas.jpg"},
+	{"text": "Christmas Dog", "image": "christmasDog.jpg"},
+	{"text": "Deck of Cards", "image": "deck_of_cards.JPG"},
+	{"text": "Dice","image": "dice.jpg",
+	{"text": "Hearts","image": "hearts.jpg"},
+	{"text": "Japanese","image": "japan.jpg"},
+	{"text": "Santa","image": "santa.jpg"},
+	{"text": "Fire and Rescue","image": "rescue.jpg"}
+]}

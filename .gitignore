@@ -8,3 +8,5 @@ bin-release/
 .settings/
 .project
 images/.DS_Store
+
+images/wraps/.DS_Store
