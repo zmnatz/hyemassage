@@ -35,13 +35,13 @@ body {
 }
 
 #nav {
-	padding-top: 0px
-	bottom: 4px;
-	right: 0px;
-	background-color: #003466;
-	list-style-type: none;
-	font-weight: bold;	
-	border-top: 4px solid #B7CFE7;
+		padding-top: 0px
+		bottom: 4px;
+		right: 0px;
+		background-color: #003466;
+		list-style-type: none;
+		font-weight: bold;	
+		border-top: 4px solid #B7CFE7;
 }
 
 .nav-item {
