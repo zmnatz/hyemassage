@@ -5,9 +5,9 @@ $(function () {
     function handleHashChange() {
         var hash = location.hash || '#home';
         $('.section').hide();
-        $('.nav-item').removeClass('selected');
+        $('.nav-item').removeClass('active');
         $(hash).fadeIn();
-        $(hash + '-link').addClass('selected');
+        $(hash + '-link').addClass('active');
     }
     
     function loadTestimonials(url, outputDiv) {

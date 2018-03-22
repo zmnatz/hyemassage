@@ -3,34 +3,30 @@ body {
 	font-size: 13px;
 }
 
-.header {
-	height: 180px;
+header {
 	background: #669acc url(images/michele_header.jpg) no-repeat;
-	padding-left: 100px;
-	padding-top: 50px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	padding-left: 120px;
+	color: white;
 }
 
-.header div.content{
-	color: white;
-	height: 100%;
-	padding-left: 120px;
-	padding-top:25px;
+header nav{
+	margin: 50px 0px 0px 100px;
 	background-color: white;
 	background-color: rgba(255,255,255,.4);
-	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#7F00FF00', EndColorStr='#7F00FF00');
-}
-
-.header div.content h1 {
 	font-weight: bold;
 	font-style: italic;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#7F00FF00', EndColorStr='#7F00FF00');
 	margin: 0px;
 }
 
-.header div.content h3 {
+header h3 {
 	margin: 0px;
 }
 
-.navbar {
+/*.navbar {
 	margin-top: -25px;
 }
 
@@ -64,7 +60,7 @@ body {
 .nav-item a:hover {
 	color: #003466;
 }
-
+*/
 .content .section {
 	background-color: white;
 }
