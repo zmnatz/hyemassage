@@ -137,3 +137,13 @@ p.quote {
 	color: white;
 	text-align: center;
 }
+
+
+ul.no-decorator {
+	padding: 0px;
+}
+
+ul.no-decorator li {
+	list-style-type: none;
+	padding: 2px 0px;
+}
